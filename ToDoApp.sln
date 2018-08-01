@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Core", "ToDoApp.Core\ToDoApp.Core.csproj", "{60EA883C-129B-4807-8B60-4B0779D73524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.DBMigration", "ToDoApp.DBMigration\ToDoApp.DBMigration.csproj", "{5547E3F3-86EF-4353-ABC6-B00B1D70549A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Web", "ToDoApp.Web\ToDoApp.Web.csproj", "{D4DE72DB-259B-4604-82BF-884157EDB42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.WebApI", "ToDoApp.WebApI\ToDoApp.WebApI.csproj", "{40C8CE10-2C3C-4FCF-831B-BC2CC4283874}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60EA883C-129B-4807-8B60-4B0779D73524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EA883C-129B-4807-8B60-4B0779D73524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EA883C-129B-4807-8B60-4B0779D73524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EA883C-129B-4807-8B60-4B0779D73524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5547E3F3-86EF-4353-ABC6-B00B1D70549A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5547E3F3-86EF-4353-ABC6-B00B1D70549A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5547E3F3-86EF-4353-ABC6-B00B1D70549A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5547E3F3-86EF-4353-ABC6-B00B1D70549A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DE72DB-259B-4604-82BF-884157EDB42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DE72DB-259B-4604-82BF-884157EDB42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DE72DB-259B-4604-82BF-884157EDB42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DE72DB-259B-4604-82BF-884157EDB42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C8CE10-2C3C-4FCF-831B-BC2CC4283874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C8CE10-2C3C-4FCF-831B-BC2CC4283874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C8CE10-2C3C-4FCF-831B-BC2CC4283874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C8CE10-2C3C-4FCF-831B-BC2CC4283874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
